@@ -1,5 +1,5 @@
-# PsicIA
-!EM FASE DE TESTES!
+# BETA PsicIA 2.0
+
 
 
 **PsicIA** é um sistema de apoio psicológico online que utiliza um chat com IA simples para conversar com os usuários. O sistema permite que os usuários se registrem, façam login e tenham uma interação com o sistema de forma segura. O projeto foi desenvolvido como parte de um TCC no Ensino Médio Técnico em Programação.
