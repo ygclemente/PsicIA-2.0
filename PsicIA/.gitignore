@@ -1,0 +1,20 @@
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários de sistema
+*.tmp
+*.bak
+
+# Ignorar arquivos do XAMPP (caso esteja usando)
+/xampp/
+
+# Ignorar arquivos de configuração de IDEs
+/.vscode/
+/.idea/
+
+# Ignorar pacotes e dependências que não devem ser versionados
+/node_modules/
+/vendor/
+
+# Ignorar a pasta de SQL (caso não queira subir o banco)
+sql/
