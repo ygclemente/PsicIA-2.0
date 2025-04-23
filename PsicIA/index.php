@@ -1,9 +1,15 @@
-<?php include('includes/header.php'); ?>
-
-<main>
-    <form action="chat.php" method="post">
-        <h2>Entrar</h2>
-        <input type="text" name="nome" placeholder="Digite seu nome" required>
-        <button type="submit">Acessar Chat</button>
-    </form>
-</main>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>PsicIA - Chat</title>
+  <link rel="stylesheet" href="style.css"> <!-- se tiver css -->
+</head>
+<body>
+  <h1>Bem-vindo ao PsicIA 💬</h1>
+  <form method="POST" action="processa_chat.php">
+    <input type="text" name="mensagem" placeholder="Digite sua mensagem" required>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
